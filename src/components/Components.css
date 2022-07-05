@@ -13,3 +13,80 @@
   transition: background-color 0.2s, box-shadow 0.2s, color 0.2s;
   border: 1px solid #dadce0;
 }
+.profile {
+  border-radius: 50%;
+  display: block;
+  height: 36px;
+  width: 36px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+}
+.add-item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 15px;
+}
+.add-item-icon {
+  color: blue;
+  font-size: 1.4rem;
+  border-radius: 50%;
+}
+.add-item-task {
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+.add-item:hover .add-item-icon {
+  background-color: blue;
+  color: white;
+}
+.add-item:hover .add-item-task {
+  color: blue;
+}
+.add-new-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.add-new-item input {
+  border: none;
+  outline: none;
+}
+.add-new-item-icon {
+  color: blue;
+  font-size: 1.4rem;
+  border-radius: 50%;
+}
+.add-new-item-icon:hover {
+  background-color: blue;
+  color: white;
+}
+.task-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.socend {
+  display: none;
+}
+.task-icons:hover .socend {
+  display: block;
+  color: blue;
+}
+.task-icons:hover .first {
+  display: none;
+}
+.socend {
+  display: none;
+}
+.task-icons:hover .socend {
+  display: block;
+  color: blue;
+}
+.task-icons:hover .first {
+  display: none;
+}
